@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Spotify Indicator
+GenericName=Spotify Indicator
+Comment=Spotify indicator
+Exec=indicator-spotify
+Terminal=false
+Type=Application
+Icon=spotify-client
+Categories=Utility;
+StartupNotify=false
+Name[pl]=Spotify Indicator
+X-GNOME-autostart-enabled=true
