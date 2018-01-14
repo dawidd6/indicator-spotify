@@ -1,3 +1,9 @@
+indicator-spotify (1.1) xenial; urgency=medium
+
+  * Release 1.1
+
+ -- Dawid Dziurla <dawidd0811@gmail.com>  Sun, 14 Jan 2018 13:24:37 +0100
+
 indicator-spotify (1.0) xenial; urgency=medium
 
   * Release 1.0
