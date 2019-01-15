@@ -1,5 +1,6 @@
 #include <libappindicator/app-indicator.h>
 
+#define ICON "indicator-spotify"
 #define INTERVAL 3
 #define MAX_WIDTH 50
 
@@ -60,7 +61,7 @@ int main(int argc, char *argv[])
 	gtk_init(&argc, &argv);
 
 	menu = gtk_menu_new();
-	indicator = app_indicator_new("indicator-spotify", "renamed-spotify-client", APP_INDICATOR_CATEGORY_APPLICATION_STATUS);
+	indicator = app_indicator_new("indicator-spotify", ICON, APP_INDICATOR_CATEGORY_APPLICATION_STATUS);
 	app_indicator_set_menu(indicator, GTK_MENU(menu));
 	app_indicator_set_title(indicator, "Spotify Indicator");
 
