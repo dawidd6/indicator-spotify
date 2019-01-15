@@ -6,6 +6,10 @@ Files: *
 Copyright: 2017 Dawid Dziurla <dawidd0811@gmail.com>
 License: MIT
 
+Files: indicator-spotify.svg
+Copyright: Numix Project
+License: GPL-3.0
+
 License: MIT
  This program is free software: you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
