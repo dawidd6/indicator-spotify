@@ -17,3 +17,5 @@ sudo apt install libappindicator3-dev
 make
 sudo make install
 ```
+
+SVG spotify icon taken from [Numix icon theme](https://github.com/numixproject/numix-icon-theme)
