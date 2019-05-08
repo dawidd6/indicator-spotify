@@ -1,20 +1,11 @@
 #Assembled by dawidd6
-COMPILER=gcc
-CFLAGS=-Wall -fPIC -std=c11 $(shell pkg-config --libs --cflags appindicator3-0.1)
 PROGRAM=indicator-spotify
-SRC=$(wildcard src/*.c)
-OBJ=$(SRC:.c=.o)
 START_COLOR=\033[0;33m
 CLOSE_COLOR=\033[m
 DESTDIR=
 
-src/%.o: src/%.c
-	@echo "$(START_COLOR)[CC]$(CLOSE_COLOR)   $<"
-	@$(COMPILER) -c -o $@ $< $(CFLAGS)
-
-$(PROGRAM): $(OBJ)
-	@echo "$(START_COLOR)[LD]$(CLOSE_COLOR)   $@"
-	@$(COMPILER) -o $@ $^ $(CFLAGS)
+build:
+	@go build -tags gtk_3_18
 
 install:
 	@echo "$(START_COLOR)[INSTALL]$(CLOSE_COLOR)   /usr/bin/$(PROGRAM)"
@@ -40,12 +31,4 @@ uninstall:
 	@rm -rf /etc/xdg/autostart/$(PROGRAM).desktop
 	@rm -rf /usr/share/icons/hicolor/scalable/apps/$(PROGRAM)
 
-clean:
-	@echo "$(START_COLOR)[RM]$(CLOSE_COLOR)   $(OBJ) $(PROGRAM)"
-	@rm -rf $(OBJ) $(PROGRAM)
-
-debian:
-	debuild
-	debuild clean
-
-.PHONY: install uninstall clean debian
+.PHONY: install uninstall

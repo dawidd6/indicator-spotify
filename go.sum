@@ -1,0 +1,14 @@
+github.com/dawidd6/go-appindicator v0.0.0-20190507164928-1134219f122a h1:+yGtVnG6ql8FtS4A1J8Ay++okFmlXsmcRTclJ8/5Xgw=
+github.com/dawidd6/go-appindicator v0.0.0-20190507164928-1134219f122a/go.mod h1:DEv1UOvkvgLxH8qFpNoDBBXwJ2XkJSOOii9XUEsAVLo=
+github.com/dawidd6/go-appindicator v0.0.0-20190508125847-909c7539122d h1:IUd8tUWz0wROpcuqOSTVYz5i/EsZlr/M/jld/UWOynw=
+github.com/dawidd6/go-appindicator v0.0.0-20190508125847-909c7539122d/go.mod h1:DEv1UOvkvgLxH8qFpNoDBBXwJ2XkJSOOii9XUEsAVLo=
+github.com/dawidd6/go-spotify-dbus v0.0.0-20190505160949-2cb6e7f8834c h1:TnVxIjBCaEPlsuCRSgtfvb9tpP6ShYHBf6p2debNUtk=
+github.com/dawidd6/go-spotify-dbus v0.0.0-20190505160949-2cb6e7f8834c/go.mod h1:u8B2rzlEPl7o6e5P9hb48q3Bp2vS9mVOVbDGrgwmQU8=
+github.com/dawidd6/go-spotify-dbus v0.0.0-20190508215705-6adce35926af h1:R6/uZBFsXw5q3BEtECP8yFu0rIf9IioEWzx5jA6pEZE=
+github.com/dawidd6/go-spotify-dbus v0.0.0-20190508215705-6adce35926af/go.mod h1:u8B2rzlEPl7o6e5P9hb48q3Bp2vS9mVOVbDGrgwmQU8=
+github.com/dawidd6/go-spotify-dbus v0.0.0-20190508221735-4519cd74d918 h1:Xn28PJczGYI9eWR3Beji4uYIjnPrkAo45gywoE152js=
+github.com/dawidd6/go-spotify-dbus v0.0.0-20190508221735-4519cd74d918/go.mod h1:u8B2rzlEPl7o6e5P9hb48q3Bp2vS9mVOVbDGrgwmQU8=
+github.com/godbus/dbus v4.1.0+incompatible h1:WqqLRTsQic3apZUK9qC5sGNfXthmPXzUZ7nQPrNITa4=
+github.com/godbus/dbus v4.1.0+incompatible/go.mod h1:/YcGZj5zSblfDWMMoOzV4fas9FZnQYTkDnsGvmh2Grw=
+github.com/gotk3/gotk3 v0.0.0-20190504080859-ff571eb317ac h1:imySnsxMVazE5YjXnM0LsrZMgfKCwJG+F3VfDMbn/ZY=
+github.com/gotk3/gotk3 v0.0.0-20190504080859-ff571eb317ac/go.mod h1:Eew3QBwAOBTrfFFDmsDE5wZWbcagBL1NUslj1GhRveo=
