@@ -1,0 +1,5 @@
+indicator-spotify.desktop usr/share/applications
+indicator-spotify.desktop etc/xdg/autostart
+indicator-spotify.svg usr/share/icons/hicolor/scalable/apps
+
+_build/bin/indicator-spotify usr/bin
