@@ -1,4 +1,18 @@
 #!/usr/bin/make -f
 
+export DH_GOPKG := github.com/dawidd6/indicator-spotify
+export PATH := /usr/lib/go-1.10/bin:$(PATH)
+export FILE := /usr/include/gtk-3.0/gtk/gtkversion.h
+export GTK_MAJOR := 3
+export GTK_MINOR := $(shell grep GTK_MINOR_VERSION $(FILE) | grep -Po [0-9]+)
+export TAG := gtk_$(GTK_MAJOR)_$(GTK_MINOR)
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang --with=golang
+
+override_dh_auto_build:
+	dh_auto_build -- -tags $(TAG)
+
+override_dh_auto_install:
+
+override_dh_auto_test:
