@@ -2,12 +2,12 @@ Source: indicator-spotify
 Section: misc
 Priority: optional
 Maintainer: Dawid Dziurla <dawidd0811@gmail.com>
-Build-Depends: debhelper (>=9), libgtk-3-dev, libappindicator3-dev
+Build-Depends: debhelper (>=9), libgtk-3-dev, libappindicator3-dev, golang-1.10-go, dh-golang
 Standards-Version: 3.9.7
 Homepage: https://github.com/dawidd6/indicator-spotify
 
 Package: indicator-spotify
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libappindicator3-1
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Spotify Indicator
  Ubuntu (unity) panel indicator
